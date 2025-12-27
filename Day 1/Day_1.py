@@ -2,6 +2,7 @@
 
 
 
+
 city = input("What city did you grow up in? ")
 pet = input("What name was your pet as a kid? ")
 
