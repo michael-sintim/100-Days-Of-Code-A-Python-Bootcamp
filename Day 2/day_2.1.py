@@ -7,4 +7,4 @@ tip =float(input("By what percentage do you wanna tip? ")) * 0.01
 per_person = question / x
 total = (per_person * tip) + per_person
 
-print(f"Each person pays: ${total:.2f}")
+print(f"Each person pays: {total:.2f}")
