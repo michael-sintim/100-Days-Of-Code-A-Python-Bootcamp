@@ -3,5 +3,14 @@ for n in range(0,len(student_scores)):
 
     student_scores[n]=int(student_scores[n])
 
-x = max(student_scores)
-print(f"The max score is {x}")
+#using for loops
+score = 0
+for max in student_scores:
+    if max > score:
+        score = max
+    
+
+
+
+# x = max(student_scores)
+print(f"The max score is {score}")
